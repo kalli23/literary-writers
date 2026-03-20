@@ -7,7 +7,7 @@ spanning three centuries (XIX–XXI), annotated across 38 psychological and
 life-circumstance dimensions using a structured LLM prompting schema.
 
 Paper: [arXiv — link to be added]  
-Dashboard: [[Streamlit](https://literary-psychology-8x4xmg2rcrag9cgebmvcy7.streamlit.app/)]
+Dashboard: [[Streamlit](https://literary-writers-abjwqyrtxh8h5v8mc6ku8r.streamlit.app/)]
 
 ---
 
@@ -60,7 +60,7 @@ Dashboard: [[Streamlit](https://literary-psychology-8x4xmg2rcrag9cgebmvcy7.strea
 ## Quickstart
 
 ```bash
-git clone https://github.com/kalli23/literary-psychology
+git clone https://github.com/kalli23/literary-writers
 cd literary-psychology
 pip install -r requirements.txt
 streamlit run app.py
