@@ -5,8 +5,8 @@
 Computational biographical analysis of 567 top-rated literary authors (Goodreads)
 spanning three centuries (XIX–XXI), annotated across 38 psychological and
 life-circumstance dimensions using a structured LLM prompting schema.
-
-Paper: [arXiv — link to be added]  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19140071.svg)](https://doi.org/10.5281/zenodo.19140071)
+Paper: [Zenodo](https://doi.org/10.5281/zenodo.19140071)
 Dashboard: [[Streamlit](https://literary-writers-abjwqyrtxh8h5v8mc6ku8r.streamlit.app/)]
 
 ---
@@ -61,7 +61,7 @@ Dashboard: [[Streamlit](https://literary-writers-abjwqyrtxh8h5v8mc6ku8r.streamli
 
 ```bash
 git clone https://github.com/kalli23/literary-writers
-cd literary-psychology
+cd literary-writers
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -105,11 +105,12 @@ Run notebooks top to bottom. Figures save to `figures/`.
 ## Citation
 
 ```bibtex
-@misc{karimov2025literary,
+@misc{karimov2026literary,
   title   = {Psychological Non-Standardness in Top Literary Authors},
   author  = {Karimov, K. Sh.},
   year    = {2026},
-  note    = {arXiv preprint — link to be added}
+  doi     = {10.5281/zenodo.19140071},
+  url     = {https://zenodo.org/records/19140071}
 }
 ```
 
